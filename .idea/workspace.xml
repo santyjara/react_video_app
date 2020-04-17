@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="1afxHpnK6O89d7I706uIKI4co4P" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog" timestamp="1587140409192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587140409192" />
+  </component>
+</project>
