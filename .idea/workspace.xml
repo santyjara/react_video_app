@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741ef4f6-72b4-4360-b41d-b8b09b2971f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/initialState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/google-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/logo-platzi-video-BW2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/logo-platzi-video-colors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/logo-platzi-video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/play-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/plus-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/twitter-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/static/user-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/Media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/Vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/CarouselItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Carousell.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Search.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Carousell.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useInitialState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reactvideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reactvideo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Intro.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/Register.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Intro.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
@@ -55,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="61923ab7a991ad8244f346d4abb0e1c17a3335b8" />
+        <entry key="$PROJECT_DIR$" value="router-redux" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +45,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JupyterPython&#10;Python" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript&#10;JupyterPython&#10;Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -78,17 +56,18 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\san_j\Documents\Projects\reactvideo\src\containers" />
       <recent name="C:\Users\san_j\Documents\Projects\reactvideo\src\assets\static" />
       <recent name="C:\Users\san_j\Documents\Projects\reactvideo\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scratch">
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -131,6 +110,7 @@
       <list>
         <item itemvalue="Python.scratch" />
         <item itemvalue="JavaScript Debug.hola.html" />
+        <item itemvalue="JavaScript Debug.hola.html" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +134,14 @@
       <workItem from="1587476056860" duration="19000" />
       <workItem from="1587651586918" duration="1151000" />
       <workItem from="1587653456214" duration="3816000" />
-      <workItem from="1587690665596" duration="7482000" />
+      <workItem from="1587690665596" duration="9219000" />
+      <workItem from="1587703774140" duration="272000" />
+      <workItem from="1587704108203" duration="987000" />
+      <workItem from="1587779845689" duration="599000" />
+      <workItem from="1587834573677" duration="3769000" />
+      <workItem from="1587869742898" duration="2497000" />
+      <workItem from="1587873478454" duration="1554000" />
+      <workItem from="1587881568373" duration="5223000" />
     </task>
     <servers />
   </component>
@@ -184,11 +171,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="0" key="#scratch/0.0.1366.728@0.0.1366.728" timestamp="1587331907648" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587667048415">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587880550914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587146603296" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587667048415" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587880550914" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587702460048" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587354305110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,10 +192,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587354305110" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1587336361563">
+    <state x="355" y="18" key="SettingsEditor" timestamp="1587836220853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587336361563" />
+    <state x="355" y="18" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587836220853" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587703823885" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587695029506">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -228,8 +216,5 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587176377200" />
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1587693368590" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587257494910" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/reactvideo$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1587335284979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>

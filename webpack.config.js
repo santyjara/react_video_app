@@ -1,5 +1,5 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
@@ -22,9 +22,11 @@ module.exports = {
       },
       {
         test: /\.html$/,
-        use: {
-          loader: 'html-loader',
-        },
+        use: [
+          {
+            loader: 'html-loader',
+          },
+        ],
       },
       {
         test: /\.(s*)css$/,
@@ -40,7 +42,7 @@ module.exports = {
         test: /\.(png|gif|jpg)$/,
         use: [
           {
-            loader: 'file-loader',
+            'loader': 'file-loader',
             options: {
               name: 'assets/[hash].[ext]',
             },
@@ -49,8 +51,11 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    historyApiFallback: true,
+  },
   plugins: [
-    new HtmlWebpackPlugin({
+    new HtmlWebPackPlugin({
       template: './public/index.html',
       filename: './index.html',
     }),
