@@ -8,11 +8,9 @@ import '../assets/styles/App.scss';
 const Login = () => {
 
   return (
-    <div className='App'>
-
+    <>
       <Intro />
-      <Footer />
-    </div>
+    </>
   );
 };
 

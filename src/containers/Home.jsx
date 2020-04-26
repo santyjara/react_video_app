@@ -26,8 +26,8 @@ const Home = () => {
   const videos = useInitialState(API, _videos, setVideos);
 
   return (
-    <div className='App'>
-      <Header />
+    <>
+
       <Search />
 
       {videos.mylist.length > 0 && (
@@ -49,9 +49,7 @@ const Home = () => {
           {videos.originals.map((item) => <CarouselItem key={item.id} {...item} />)}
         </Carousell>
       </Categories>
-
-      <Footer />
-    </div>
+    </>
   );
 };
 

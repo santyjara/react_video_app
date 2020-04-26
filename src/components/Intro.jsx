@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/styles/components/Intro.scss';
 import logo_twitter from '../assets/static/twitter-icon.png';
 import logo_google from '../assets/static/google-icon.png';
@@ -36,7 +37,9 @@ class Intro extends Component {
           </section>
           <p className='login__container--register'>
             No tienes ninguna cuenta
-            <a href=''>Regístrate</a>
+            <Link to='/register'>
+              Regístrate
+            </Link>
           </p>
         </section>
       </section>
